@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Babet's Template Site"
 theme = 'my-hextra'
 
 [params]
@@ -20,8 +20,8 @@ theme = 'my-hextra'
     poweredBy = "© 2025 adrienbabet.com"
 
 [[menu.main]]
-    name = "Projects"
-    pageRef = "/projects"
+    name = "Shortcodes"
+    pageRef = "/shortcodes"
     weight = 1
 
 [[menu.main]]
