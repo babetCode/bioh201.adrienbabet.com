@@ -1,3 +1,31 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+theme = 'my-hextra'
+
+[params]
+    [params.navbar]
+    displayTitle = true
+    displayLogo = true
+
+        [params.navbar.logo]
+        path = "favicon.svg"
+        dark = "favicon-dark.svg"
+        link = "/"
+        width = 40
+
+    [params.footer]
+    displayPoweredBy = true
+    displayCopyright = false
+    poweredBy = "© 2025 adrienbabet.com"
+
+[[menu.main]]
+    name = "Projects"
+    pageRef = "/projects"
+    weight = 1
+
+[[menu.main]]
+    name = "Search"
+    weight = 2
+    [menu.main.params]
+        type = "search"
