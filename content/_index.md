@@ -2,6 +2,9 @@
 date = '2025-01-15T10:32:15-07:00'
 draft = false
 title = 'Welcome to My BIOH 201 Site'
+breadcrumbs = false
+[cascade]
+  type = 'docs'
 +++
 
 ![hero-image](/images/hero.jpg)
@@ -20,8 +23,3 @@ I'm looking foreward to another great semester of learning about humans. Through
   {{< card link="https://digitalhistology.org" title="Digital Histology" icon="globe-alt" subtitle="Web histology resource" >}}
 {{< /cards >}}
 
-{{< rawhtml >}}
-    <div class="mx-auto mt-8 flex justify-center">
-        <a class="w-auto mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg no-underline hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50" href='/course'>More Stuff</a>
-    </div>
-{{< /rawhtml >}}
