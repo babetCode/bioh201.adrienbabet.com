@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = "Babet's Template Site"
+title = "BIOH 201"
 theme = 'my-hextra'
 
 [params]
