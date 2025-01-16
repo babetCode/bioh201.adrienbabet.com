@@ -9,10 +9,11 @@ breadcrumbs = false
 
 ![hero-image](/images/hero.jpg)
 
-I'm looking foreward to another great semester of learning about humans. Throughout the semester, I'll use this site to share my favorite learning resources and fun facts to help you study. Best of luck!  
-\- Adrien Babet
+We're looking forward to another great semester of learning about humans. Throughout the semester, our favorite learning resources and fun facts will be posted to this site to help you study. Best of luck!
 
-## My Favorite Resources
+\- BIOH 201 Lab 3 Teaching Team
+
+## Unnecessary (But Fun) Resources
 {{< cards >}}
   {{< card link="https://www.youtube.com/playlist?list=PLR6KCrq6lluDs9KSVeS-SketvVwdgteKn" title="TeachMeAandP" icon="youtube" subtitle="A&P classroom lectures" >}}
   {{< card link="https://www.youtube.com/playlist?list=PL8dPuuaLjXtOAKed_MxxWBNaPno5h3Zs8" title="Crash Course A&P" icon="youtube" subtitle="Fun A&P videos" >}}
