@@ -33,7 +33,7 @@ title = 'Unit 1'
     {{< /tab >}}
 
     {{< tab >}}
-        {{< callout emoji="🌐" >}}This week and beyond are still under construction</p>{{< /callout >}}
+        {{< callout emoji="🔨" >}}This week and beyond are still under construction</p>{{< /callout >}}
     {{< /tab >}}
 
 {{< /tabs >}}
