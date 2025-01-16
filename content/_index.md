@@ -1,7 +1,7 @@
 +++
 date = '2025-01-15T10:32:15-07:00'
 draft = false
-title = 'Welcome to My BIOH 201 Site'
+title = 'Welcome to BIOH 201'
 breadcrumbs = false
 [cascade]
   type = 'docs'
