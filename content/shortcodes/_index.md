@@ -278,3 +278,121 @@ This will be hidden by default.
 
 {{</* /details */>}}
 ````
+
+## File Tree
+
+{{< filetree/container >}}
+  {{< filetree/folder name="content" >}}
+    {{< filetree/file name="_index.md" >}}
+    {{< filetree/folder name="docs" state="closed" >}}
+      {{< filetree/file name="_index.md" >}}
+      {{< filetree/file name="introduction.md" >}}
+      {{< filetree/file name="introduction.fr.md" >}}
+    {{< /filetree/folder >}}
+  {{< /filetree/folder >}}
+  {{< filetree/file name="hugo.toml" >}}
+{{< /filetree/container >}}
+
+### Usage
+
+```text {filename="Markdown"}
+{{</* filetree/container */>}}
+  {{</* filetree/folder name="content" */>}}
+    {{</* filetree/file name="_index.md" */>}}
+    {{</* filetree/folder name="docs" state="closed" */>}}
+      {{</* filetree/file name="_index.md" */>}}
+      {{</* filetree/file name="introduction.md" */>}}
+      {{</* filetree/file name="introduction.fr.md" */>}}
+    {{</* /filetree/folder */>}}
+  {{</* /filetree/folder */>}}
+  {{</* filetree/file name="hugo.toml" */>}}
+{{</* /filetree/container */>}}
+```
+
+## Icons
+
+To use this shortcode inline, inline shortcode needs to be enabled in the config:
+
+```yaml {filename="hugo.yaml"}
+enableInlineShortcodes: true
+```
+
+List of available icons can be found in [`data/icons.yaml`](https://github.com/imfing/hextra/blob/main/data/icons.yaml).
+
+{{< icon "academic-cap" >}}
+{{< icon "cake" >}}
+{{< icon "gift" >}}
+{{< icon "sparkles" >}}
+
+### Usage
+
+```
+{{</* icon "github" */>}}
+```
+
+[Heroicons](https://v1.heroicons.com/) v1 outline icons are available out of the box.
+
+### How to add your own icons
+
+Create `data/icons.yaml` file, then add your own SVG icons in the following format:
+
+```yaml {filename="data/icons.yaml"}
+your-icon: <svg>your icon svg content</svg>
+```
+
+It then can be used in the shortcode like this:
+
+```
+{{</* icon "your-icon" */>}}
+
+{{</* card icon="your-icon" */>}}
+```
+
+Tip: [Iconify Design](https://iconify.design/) is a great place to find SVG icons for your site.
+
+## Tabs
+
+{{< tabs items="JSON,YAML,TOML" >}}
+
+{{< tab >}}<strong>JSON</strong>: JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.{{< /tab >}}
+{{< tab >}}<strong>YAML</strong>: YAML is a human-readable data serialization language.{{< /tab >}}
+{{< tab >}}<strong>TOML</strong>: TOML aims to be a minimal configuration file format that's easy to read due to obvious semantics.{{< /tab >}}
+
+{{< /tabs >}}
+
+### Default
+
+```
+{{</* tabs items="JSON,YAML,TOML" */>}}
+
+  {{</* tab */>}}<strong>JSON</strong>: JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.{{</* /tab */>}}
+  {{</* tab */>}}<strong>YAML</strong>: YAML is a human-readable data serialization language.{{</* /tab */>}}
+  {{</* tab */>}}<strong>TOML</strong>: TOML aims to be a minimal configuration file format that's easy to read due to obvious semantics.{{</* /tab */>}}
+
+{{</* /tabs */>}}
+```
+
+### Specify Selected Index
+
+Use `defaultIndex` property to specify the selected tab. The index starts from 0.
+
+```
+{{</* tabs items="JSON,YAML,TOML" defaultIndex="1" */>}}
+
+  {{</* tab */>}}<strong>JSON</strong>: JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.{{</* /tab */>}}
+  {{</* tab */>}}<strong>YAML</strong>: YAML is a human-readable data serialization language.{{</* /tab */>}}
+  {{</* tab */>}}<strong>TOML</strong>: TOML aims to be a minimal configuration file format that's easy to read due to obvious semantics.{{</* /tab */>}}
+
+{{</* /tabs */>}}
+```
+
+The `YAML` tab will be selected by default.
+
+{{< tabs items="JSON,YAML,TOML" defaultIndex="1" >}}
+
+{{< tab >}}<strong>JSON</strong>: JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.{{< /tab >}}
+{{< tab >}}<strong>YAML</strong>: YAML is a human-readable data serialization language.{{< /tab >}}
+{{< tab >}}<strong>TOML</strong>: TOML aims to be a minimal configuration file format that's easy to read due to obvious semantics.{{< /tab >}}
+
+{{< /tabs >}}
+
