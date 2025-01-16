@@ -20,11 +20,6 @@ theme = 'my-hextra'
     poweredBy = "© 2025 adrienbabet.com"
 
 [[menu.main]]
-    name = "Shortcodes"
-    pageRef = "/shortcodes"
-    weight = 1
-
-[[menu.main]]
     name = "Search"
     weight = 2
     [menu.main.params]

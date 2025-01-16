@@ -1,0 +1,17 @@
+# Ignore Hugo build output
+public/
+
+# Ignore temporary Hugo files
+resources/
+hugo_stats.json
+
+# Ignore Netlify's build cache (if any)
+.netlify/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
