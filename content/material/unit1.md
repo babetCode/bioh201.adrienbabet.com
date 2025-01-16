@@ -4,7 +4,7 @@ draft = false
 title = 'Unit 1'
 +++
 
-{{< tabs items="Week 1,Week 2,Week 3" >}}
+{{< tabs items="Week 1,Week 2" >}}
 
     {{< tab >}}
         <h2>Anatomical Position</h2>
@@ -30,6 +30,10 @@ title = 'Unit 1'
                 Anatomical planes are imaginary lines used to divide the body into sections for descriptive and diagnostic purposes. The <strong>frontal</strong> plane (also known as the coronal plane) divides the body into front (anterior) and back (posterior) sections. The <strong>sagittal</strong> plane splits the body into left and right parts, with the midsagittal plane dividing it equally in the middle. Lastly, the <strong>transverse</strong> plane (or horizontal plane) cuts the body into upper (superior) and lower (inferior) portions. A handy way to remember these planes by their first letters is: Frontal (front), Sagittal (side), and Transverse (top). This mnemonic device helps reinforce the association between each plane and its respective orientation in the body.
             </div>
         </div>
+    {{< /tab >}}
+
+    {{< tab >}}
+        {{< callout emoji="🌐" >}}This week and beyond are still under construction</p>{{< /callout >}}
     {{< /tab >}}
 
 {{< /tabs >}}
