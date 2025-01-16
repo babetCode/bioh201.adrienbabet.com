@@ -1,7 +1,8 @@
 +++
 date = '2025-01-15T20:27:28-07:00'
 draft = false
-title = 'Unit 1'
+title = 'Unit 1 Summaries'
+linkTitle = 'Unit 1'
 breadcrumbs = false
 weight = 1
 +++
