@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://bioh201.netlify.app/'
 languageCode = 'en-us'
 title = "BIOH 201"
 theme = 'my-hextra'
