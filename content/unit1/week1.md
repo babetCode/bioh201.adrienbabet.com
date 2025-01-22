@@ -2,6 +2,7 @@
 date = '2025-01-18T08:45:44-07:00'
 draft = false
 title = 'Week 1'
+weight = 1
 +++
 
 A first week of anatomical positions, planes, directions, regions, and organ systems.
