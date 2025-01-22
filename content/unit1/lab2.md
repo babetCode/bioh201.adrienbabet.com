@@ -9,6 +9,8 @@ Cellular Anatomy and Mitosis
 
 ## Cell Structures
 
+![Cell Structure](/images/cell.png)
+
 1. **Nucleus**:
    - Controls cellular activities and stores genetic material (DNA).
    - Regulates gene expression and mediates DNA replication and RNA synthesis.
