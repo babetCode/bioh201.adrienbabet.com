@@ -29,3 +29,7 @@ We're looking forward to another great semester of learning about humans. Throug
         <a class="w-auto mt-4 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg no-underline hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50" href='/unit1'>Unit 1 Content</a>
     </div>
 {{< /rawhtml >}}
+
+{{< details-html title="Syllabus" closed="true" >}}
+{{< tallpdf path="/pdfs/syllabus.pdf" >}}
+{{< /details-html >}}
