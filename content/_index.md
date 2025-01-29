@@ -33,3 +33,7 @@ We're looking forward to another great semester of learning about humans. Throug
 {{< details-html title="Syllabus" closed="true" >}}
 {{< tallpdf path="/pdfs/syllabus.pdf" >}}
 {{< /details-html >}}
+
+{{< details-html title="Lab Schedule" closed="true" >}}
+{{< tallpdf path="/pdfs/labSchedule.pdf" height="65" >}}
+{{< /details-html >}}
