@@ -10,6 +10,6 @@ weight = 1
     {{< card link="/unit1/week1" title="Lab 1" subtitle="Anatomical terms, Organ systems, Microscopy" >}}
     {{< card link="/unit1/lab2" title="Lab 2" subtitle="Cellular Anatomy and Mitosis" >}}
     {{< card link="/unit1/lab3" title="Lab 3" subtitle="Membrane Transport" >}}
-    <!-- {{< card link="/unit1/week3" title="Lab 4" subtitle="Epithelial Tissue" >}}
-    {{< card link="/unit1/week3" title="Lab 5" subtitle="Connective Tissue" >}} -->
+    {{< card link="/unit1/lab4" title="Lab 4" subtitle="Epithelial Tissue" >}}
+    {{< card link="/unit1/lab5" title="Lab 5" subtitle="Connective Tissue" >}}
 {{< /cards >}}
